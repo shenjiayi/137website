@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.RedHighlight{
+	color:red;
+}
+
+
+div#contactBody{
+	width:1080px;
+	margin:0px auto;
+}
+
+div#formHeader{
+	padding:10px;
+	height:150px;
+	width:100%;
+	text-align:left;}
+	
+div#formHeader h1{
+	font-size:50px;
+	color:red;
+}
+
+
+table{
+	font-size:24px;
+}
+
+table td{
+	padding:8px;
+}

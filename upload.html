@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<!-- This is the html for the wechat platform
+and this platform is for test purpose and its ownership is hold by Noctoid
+
+http://www.ics.uci.edu/~jiaqiz2 -->
+
+
+<html>
+<head>
+  <title>E-Commerce Project</title>
+  <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="src/style.css"/>
+
+</head>
+
+<body>
+
+  <script>
+    // getElementById
+    function $id(id) {
+    	return document.getElementById(id);
+    }
+
+    // output information
+    function Output(msg) {
+    	var m = $id("messages");
+    	m.innerHTML = msg + m.innerHTML;
+    }
+
+    // call initialization file
+    if (window.File && window.FileList && window.FileReader) {
+    	Init();
+    }
+
+    //
+    // initialize
+    function Init() {
+
+    	var fileselect = $id("fileselect"),
+    		filedrag = $id("filedrag"),
+    		submitbutton = $id("submitbutton");
+
+    	// file select
+    	fileselect.addEventListener("change", FileSelectHandler, false);
+
+    	// is XHR2 available?
+    	var xhr = new XMLHttpRequest();
+    	if (xhr.upload) {
+
+    		// file drop
+    		filedrag.addEventListener("dragover", FileDragHover, false);
+    		filedrag.addEventListener("dragleave", FileDragHover, false);
+    		filedrag.addEventListener("drop", FileSelectHandler, false);
+    		filedrag.style.display = "block";
+
+    		// remove submit button
+    		submitbutton.style.display = "none";
+    	}
+    }
+    
+  </script>
+
+  <div id="menuBar">
+     <ul id="menuItem">
+     	 <li> <a href="index.html"> <img src="img/logo.gif" width="50px"/></a></li>
+         <li class="TestCenter"><a href="browse.html">Browse Files</a></li>
+         <li class="TestCenter"><a href="instructions.html">Instructions</a></li>
+         <li class="TestCenter"><a href="upload.html">Upload Files</a></li>
+         <li class="TestCenter"><a href="contact.html">Contact Us</a></li>
+     </ul>
+  </div>
+
+  <div id="uploadbox">
+    <form id="upload" action="upload.php" method="POST" enctype="multipart/form-data">
+
+    <fieldset>
+      <legend>HTML File Upload</legend>
+
+      <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+      <div>
+      	<label for="fileselect">Files to upload:</label>
+      	<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+      	<div id="filedrag">or drop files here</div>
+      </div>
+
+      <div id="submitbutton">
+      	<button type="submit">Upload Files</button>
+      </div>
+
+    </fieldset>
+
+    </form>
+
+    <div id="messages">
+    <p>Status Messages</p>
+    </div>
+  </div>
+
+
+  <!--footer-->
+  
+  <div id="footer">
+    <div class="footerContent">
+      <div class="block">
+        <p class="footerTitle">Information</p>
+      </div>
+        
+        
+      <div class="block">
+        <p class="footerTitle">Learn More</p>
+      </div>
+        
+        <div class="block">
+        <p class="footerTitle">Follow Us</p> 
+            
+    
+            <img class="socialicon" src="img/facebook.png" alt="facebook"/><p> Facebook</p>
+            <img class="socialicon" src="img/instagram.png" alt="instagram"/><p> Instagram </p>
+            <img class="socialicon" src="img/twitter.png" alt="twitter" /> <p> Twitter </p>
+            <img class="socialicon" src="img/youtube.png" alt="youtube" /><p> Youtube </p>
+      </div>
+        
+        <div class="block">
+        <p class="footerTitle">Contact Us</p>
+            <p> Telephone: 949-111-1234</p>
+            <p> Address: 9999 Arroyo Dr</p>
+            <p> Irvine, California 92617</p>
+          <p> Email:weprint@gmail.com</p>
+      </div>
+        
+    </div>
+    
+  </div>
+
+</body>
+
+</html>
