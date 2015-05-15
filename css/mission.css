@@ -1,0 +1,13 @@
+#missionBody{
+	width: 1080px;
+	margin: 50px auto;
+}
+
+#missionBody p{
+	font-size: 24px;
+}
+
+
+#missionBody img{
+	padding: 30px;
+}

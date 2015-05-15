@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+#content{
+	margin:0px auto;
+	width:1080px;
+}
+
+/*summary block*/
+#summary{
+	height:400px;
+	background-image: url(../img/upload_back.jpg);
+}
+
+#title{
+	font-size:48px;
+	height:100px;
+	padding:100px 0 0 300px;
+	text-align:left;
+}
+
+ul#steps li{
+	float:left;
+	display:inline;
+	width:18%;
+}
+
+
+/*each step block*/
+.Step{
+	height:550px;
+	clear:both;
+}
+
+
+.StepName{
+	padding:40px 0 30px;
+	font-size:24px;
+	text-align:center;
+}
+
+.ImgDisplay{
+	float:left;
+	width:520px;
+}
+
+.ImgDisplay img{
+	display: block;
+    margin: 10px auto;
+}
+
+.ImgDisplayLeft p{
+	margin:5px;
+}
+
+.PicTitle{
+	margin:5px;
+	font-size:24px;
+	text-align: center;
+}
+
+.PicDis{
+	margin :5px 30px 20px;
+	font-size:18px;
+	text-align: left;
+}
+
+
+/*step with dark background*/
+.DarkStep{
+	height:550px;
+	clear:both;
+	background-color:#E0E0E0;
+}
+
+/*upload button*/
+.Button{
+	clear:both;
+	font-color:white;
+	padding:20px;
+	text-align:center;
+	font-size:24px;
+}
+
+.Color{
+	padding:10px;
+	align:center;
+	background-color:#3b6a7d;
+}
+
+/*youtube video*/
+#video{
+	padding:20px 240px 40px;
+}
+

@@ -1,0 +1,25 @@
+#loginBody{
+	width:1080px;
+	margin:0 auto;
+	background: #FFFCFA;
+}
+
+#LoginTitle{
+	width:100%;
+	text-align: center;
+	font-size: 48px;
+	margin-top: 30px;
+	padding: 20px 20px 10px;
+}
+
+#form{
+	margin: 0 0 0 400px;
+	padding-bottom:100px;
+
+}
+
+
+table td{
+	font-size: 30px;
+	padding: 5px 0;
+}

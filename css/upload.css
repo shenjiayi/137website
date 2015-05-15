@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uploadbox {
+  width:1000px;
+  height: 600px;
+  margin-left: auto;
+	margin-right: auto;
+	padding: 30px 30px 30px 30px;
+}
+
+.uploadbox img {
+	float:left;
+	width:400px;
+  margin-left: auto;
+  margin-right: auto;
+	vertical-align: middle;
+}
+
+.uploadbox fieldset {
+	float:right;
+	width:400px;
+  margin-left: auto;
+  margin-right: auto;
+	vertical-align: middle;
+}

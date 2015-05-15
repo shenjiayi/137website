@@ -1,0 +1,45 @@
+/* define content */
+div#showingWindow{
+	height: 550px;
+	width:1080px;
+	margin:0px auto;
+	font-size: 30px;
+}
+
+div#showingWindow h2{
+	font-size: 50px;
+}
+
+
+div#contentText{
+	clear:both;
+	float:left;
+	width:400px;
+	padding:70px 10px 10px 70px;
+	text-align:center;
+}
+
+#contentText p{
+	text-align: left;
+	font-size: 24px;
+}
+
+div#contentImage{
+	height:450px;
+	float:right;
+	width:500px;
+	padding:10px;
+}
+
+/* define pcitures below */
+div#itemList{
+	clear:both;
+	width:960px;
+	height:200px;
+	margin:0px auto;
+}
+
+.Picture{
+	float:left;
+    width:240px;
+}

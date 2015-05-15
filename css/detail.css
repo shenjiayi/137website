@@ -1,0 +1,85 @@
+#body {
+	width:1080px;
+	margin:50px auto;
+}
+
+#container {
+	height:470px;
+	width: 700px;
+	margin:10px;
+	position: relative;
+	float:left;
+}
+
+#picture{
+	height:470px;
+	width:700px;
+	position: absolute;
+}
+
+#smallPic{
+	clear:both;
+}
+
+
+.Preview{
+	width:140px;
+	height:100px;
+	float:left;
+	margin:10px;
+	opacity: 0.5;
+}
+
+
+#penholder1{
+	border: 5px solid black;
+}
+
+#left_holder{
+	height: 470px;
+	width: 100px;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+#right_holder{
+	height: 470px;
+	width: 100px;
+	position: :absolute;
+	right:0px;
+	top:0px;
+}
+
+.left{
+	height:50px;
+	width: 50px;
+	position: absolute;
+	top:40%;
+	left:5px;
+}
+
+.right{
+	height:50px;
+	width: 50px;
+	position: absolute;
+	top:40%;
+	right:5px;
+}
+
+
+
+
+#discriptionRight{
+	margin:10px;
+	width:250px;
+	height:300px;
+	background-color: #C7C7C7;
+	float:left;
+	padding: 10px;
+}
+
+#discriptionButtom{
+	clear:both;
+	margin:20px 40px;
+}

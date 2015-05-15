@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contentBody{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+
+.layerLight{
+	height:400px;
+	clear:both;
+
+}
+
+
+
+.layerDark {
+	height: 400px;
+	clear: 	both;
+	background-color:#E0E0E0;
+}
+
+.layerContainer {
+	display: inline;
+	float:left;
+	width:25%;
+}
+
+.itemTile {
+	margin: 20px;
+	height: 360px;
+	background-color: #37373B;
+}
+
+.itemTile img {
+	display: block;
+	padding: 20px;
+	margin-left: auto;
+	margin-right:auto;
+	width: 85%;
+	height: 50%;
+
+}
+
+.itemTile p {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width : 85%;
+	color: white;
+}
+
+.more{
+	font-size: 24px;
+	text-align: center;
+}
+
+.more a{
+	color:blue;
+}
